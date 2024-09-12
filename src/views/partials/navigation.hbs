@@ -1,0 +1,55 @@
+<nav class="navbar bg-primary navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand link-warning fs-3" href="#">CONTROL DE ASISTENCIA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link link-light" aria-current="page" href="/">ASISTENCIA</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link link-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ROLES
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/add">ADMINISTRADOR</a></li>
+            <li><a class="dropdown-item" href="/list">PROFESOR</a></li>
+            <li><a class="dropdown-item" href="/list">ENTRENADOR</a></li>
+        
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link link-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SEDES
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">LIMA</a></li>
+            <li><a class="dropdown-item" href="#">NORTE</a></li>
+            <li><a class="dropdown-item" href="#">CENTRO</a></li>
+            <li><a class="dropdown-item" href="#">SUR</a></li>
+          </ul>
+        </li>
+
+    <!-- DENTRO DE LA TABLA USUARIO -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link link-light dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            USUARIO
+          </a>
+          <ul class="dropdown-menu">
+
+            <li><a class="dropdown-item" href="/list/producto">EQUIPO</a></li>
+            <li><a class="dropdown-item" href="/list/categoria">HORARIO</a></li>
+            
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,35 @@
+<div class="container p-4" style="margin-top:70px;">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <div class="card text-center">
+        <div class="card-header">
+          <h3 class="text-uppercase">REGISTRAR UN NUEVO EQUIPO</h3>
+        </div>
+        <div class="card-body">
+          <form action="/add" method="post">
+           <div class="input-group mt-2">
+              <label for="name" class="input-group-text">CAMPO</label>
+              <input class="form-control" type="text" name="nomcli" id="nomcli" placeholder="INDIQUE EL CAMPO " autofocus required>
+            </div>
+            <div class="input-group mt-2">
+              <label for="name" class="input-group-text">CATEGORIA</label>
+              <input class="form-control" type="text" name="nomcli" id="nomcli" placeholder="CATEGORIA" autofocus required>
+            </div>
+            <div class="input-group mt-2">
+              <label for ="name" class="input-group-text">ENTRENADOR</label>
+              <input class="form-control" type="text" name="nomcli" id="nomcli" placeholder="NOMBRE DEL ENTRENADOR" autofocus required>
+            </div>
+            <div class="input-group mt-2">
+              <label for="lastname" class="input-group-text">HORARIO</label>
+              <input class="form-control" type="time" name="apecli" id="apecli" placeholder="HORAIO" required>
+            </div>
+            <div class="form-group mt-4 d-grid gap-2">
+              <button class="btn btn-success">GUARDAR</button>
+              <button class="btn btn-danger"><a class="nav-link link-light" aria-current="page" href="/list/producto">CANCELAR</a></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
